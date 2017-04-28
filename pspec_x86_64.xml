@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>encryptr</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>security</PartOf>
+        <Summary xml:lang="en">Encryptr is a zero-knowledge cloud-based password manager</Summary>
+        <Description xml:lang="en">Encryptr is a zero-knowledge cloud-based password manager
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>encryptr</Name>
+        <Summary xml:lang="en">Encryptr is a zero-knowledge cloud-based password manager</Summary>
+        <Description xml:lang="en">Encryptr is a zero-knowledge cloud-based password manager
+</Description>
+        <PartOf>security</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/encryptr.desktop</Path>
+            <Path fileType="data">/usr/share/encryptr</Path>
+            <Path fileType="data">/usr/share/pixmaps/encryptr.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-04-28</Date>
+            <Version>2.0.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
