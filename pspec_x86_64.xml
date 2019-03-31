@@ -2,15 +2,15 @@
     <Source>
         <Name>encryptr</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>security</PartOf>
         <Summary xml:lang="en">Encryptr is a zero-knowledge cloud-based password manager</Summary>
         <Description xml:lang="en">Encryptr is a zero-knowledge cloud-based password manager
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>encryptr</Name>
@@ -19,19 +19,22 @@
 </Description>
         <PartOf>security</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/encryptr</Path>
             <Path fileType="data">/usr/share/applications/encryptr.desktop</Path>
-            <Path fileType="data">/usr/share/encryptr</Path>
+            <Path fileType="data">/usr/share/encryptr/encryptr-bin</Path>
+            <Path fileType="data">/usr/share/encryptr/icudtl.dat</Path>
+            <Path fileType="data">/usr/share/encryptr/libffmpegsumo.so</Path>
+            <Path fileType="data">/usr/share/encryptr/nw.pak</Path>
             <Path fileType="data">/usr/share/pixmaps/encryptr.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2017-05-11</Date>
+        <Update release="4">
+            <Date>2019-03-31</Date>
             <Version>2.0.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
