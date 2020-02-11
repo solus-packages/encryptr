@@ -1,9 +1,9 @@
 name       : encryptr
 version    : 2.0.0
-release    : 4
+release    : 5
 source     :
     - https://spideroak.com/dist/encryptr/signed/linux/targz/encryptr-2.0.0_amd.tar.gz : 028ff2844ee3c03f900813f24a928a040a588fab091b682f3428abf38e216fc8
-license    : GPL-3.0
+license    : GPL-3.0-or-later
 component  : security
 summary    : Encryptr is a zero-knowledge cloud-based password manager
 description: |
